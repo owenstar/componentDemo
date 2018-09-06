@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseTableViewController.h
 //  componentDemo
 //
 //  Created by nihuo on 2018/9/6.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface BaseTableViewController : UITableViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
