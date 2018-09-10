@@ -22,6 +22,14 @@
 		276DEDCE2140D7F7003A9557 /* ModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 276DEDCD2140D7F7003A9557 /* ModuleManager.m */; };
 		276DEDD22140F490003A9557 /* ModuleAProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 276DEDD12140F490003A9557 /* ModuleAProvide.m */; };
 		276DEDDD2140FCBF003A9557 /* ModuleBProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 276DEDDC2140FCBF003A9557 /* ModuleBProvide.m */; };
+		27962C1321463D500049EA7D /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27962C1221463D500049EA7D /* CTMediator.m */; };
+		27962C1721463D970049EA7D /* PerformActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27962C1521463D960049EA7D /* PerformActionViewController.m */; };
+		27962C1821463D970049EA7D /* PerformActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27962C1621463D970049EA7D /* PerformActionViewController.xib */; };
+		27962C1D21463E4E0049EA7D /* ModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27962C1B21463E4E0049EA7D /* ModuleAViewController.m */; };
+		27962C1E21463E4E0049EA7D /* ModuleAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27962C1C21463E4E0049EA7D /* ModuleAViewController.xib */; };
+		27962C2121463EF40049EA7D /* Target_ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 27962C2021463EF40049EA7D /* Target_ModuleA.m */; };
+		27962C2421463F0F0049EA7D /* CTMediator+ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 27962C2321463F0F0049EA7D /* CTMediator+ModuleA.m */; };
+		27962C26214650CB0049EA7D /* aaa.png in Resources */ = {isa = PBXBuildFile; fileRef = 27962C25214650CB0049EA7D /* aaa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +61,19 @@
 		276DEDDA2140FC0A003A9557 /* ModuleBProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBProtocol.h; sourceTree = "<group>"; };
 		276DEDDB2140FCBF003A9557 /* ModuleBProvide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBProvide.h; sourceTree = "<group>"; };
 		276DEDDC2140FCBF003A9557 /* ModuleBProvide.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleBProvide.m; sourceTree = "<group>"; };
+		27962C1121463D500049EA7D /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		27962C1221463D500049EA7D /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		27962C1421463D960049EA7D /* PerformActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerformActionViewController.h; sourceTree = "<group>"; };
+		27962C1521463D960049EA7D /* PerformActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerformActionViewController.m; sourceTree = "<group>"; };
+		27962C1621463D970049EA7D /* PerformActionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PerformActionViewController.xib; sourceTree = "<group>"; };
+		27962C1A21463E4E0049EA7D /* ModuleAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleAViewController.h; sourceTree = "<group>"; };
+		27962C1B21463E4E0049EA7D /* ModuleAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleAViewController.m; sourceTree = "<group>"; };
+		27962C1C21463E4E0049EA7D /* ModuleAViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModuleAViewController.xib; sourceTree = "<group>"; };
+		27962C1F21463EF40049EA7D /* Target_ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ModuleA.h; sourceTree = "<group>"; };
+		27962C2021463EF40049EA7D /* Target_ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ModuleA.m; sourceTree = "<group>"; };
+		27962C2221463F0F0049EA7D /* CTMediator+ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ModuleA.h"; sourceTree = "<group>"; };
+		27962C2321463F0F0049EA7D /* CTMediator+ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ModuleA.m"; sourceTree = "<group>"; };
+		27962C25214650CB0049EA7D /* aaa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aaa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +106,8 @@
 		276DED9D2140CD53003A9557 /* componentDemo */ = {
 			isa = PBXGroup;
 			children = (
+				27962C0F21463D370049EA7D /* URL */,
 				276DEDB62140D5D8003A9557 /* Runtime */,
-				276DEDB52140D5D1003A9557 /* URL */,
 				276DEDB42140D5C2003A9557 /* Protocol */,
 				276DED9E2140CD53003A9557 /* AppDelegate.h */,
 				276DED9F2140CD53003A9557 /* AppDelegate.m */,
@@ -115,16 +136,15 @@
 			name = Protocol;
 			sourceTree = "<group>";
 		};
-		276DEDB52140D5D1003A9557 /* URL */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = URL;
-			sourceTree = "<group>";
-		};
 		276DEDB62140D5D8003A9557 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
+				27962C28214651E10049EA7D /* ModuleA */,
+				27962C1021463D500049EA7D /* CTMediator */,
+				27962C25214650CB0049EA7D /* aaa.png */,
+				27962C1421463D960049EA7D /* PerformActionViewController.h */,
+				27962C1521463D960049EA7D /* PerformActionViewController.m */,
+				27962C1621463D970049EA7D /* PerformActionViewController.xib */,
 			);
 			name = Runtime;
 			sourceTree = "<group>";
@@ -160,6 +180,36 @@
 				276DEDCF2140F472003A9557 /* ModuleAProtocol.h */,
 				276DEDD02140F490003A9557 /* ModuleAProvide.h */,
 				276DEDD12140F490003A9557 /* ModuleAProvide.m */,
+			);
+			name = ModuleA;
+			sourceTree = "<group>";
+		};
+		27962C0F21463D370049EA7D /* URL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = URL;
+			sourceTree = "<group>";
+		};
+		27962C1021463D500049EA7D /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				27962C1121463D500049EA7D /* CTMediator.h */,
+				27962C1221463D500049EA7D /* CTMediator.m */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		27962C28214651E10049EA7D /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				27962C1F21463EF40049EA7D /* Target_ModuleA.h */,
+				27962C2021463EF40049EA7D /* Target_ModuleA.m */,
+				27962C2221463F0F0049EA7D /* CTMediator+ModuleA.h */,
+				27962C2321463F0F0049EA7D /* CTMediator+ModuleA.m */,
+				27962C1A21463E4E0049EA7D /* ModuleAViewController.h */,
+				27962C1B21463E4E0049EA7D /* ModuleAViewController.m */,
+				27962C1C21463E4E0049EA7D /* ModuleAViewController.xib */,
 			);
 			name = ModuleA;
 			sourceTree = "<group>";
@@ -221,7 +271,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27962C26214650CB0049EA7D /* aaa.png in Resources */,
+				27962C1E21463E4E0049EA7D /* ModuleAViewController.xib in Resources */,
 				276DEDC02140D772003A9557 /* ProtocolViewController.xib in Resources */,
+				27962C1821463D970049EA7D /* PerformActionViewController.xib in Resources */,
 				276DEDCA2140D7A5003A9557 /* ModuleBVC.xib in Resources */,
 				276DEDAB2140CD55003A9557 /* LaunchScreen.storyboard in Resources */,
 				276DEDA82140CD55003A9557 /* Assets.xcassets in Resources */,
@@ -237,14 +290,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27962C1D21463E4E0049EA7D /* ModuleAViewController.m in Sources */,
+				27962C2421463F0F0049EA7D /* CTMediator+ModuleA.m in Sources */,
 				276DEDCE2140D7F7003A9557 /* ModuleManager.m in Sources */,
+				27962C1321463D500049EA7D /* CTMediator.m in Sources */,
 				276DEDBF2140D772003A9557 /* ProtocolViewController.m in Sources */,
 				276DEDC92140D7A5003A9557 /* ModuleBVC.m in Sources */,
 				276DEDDD2140FCBF003A9557 /* ModuleBProvide.m in Sources */,
 				276DEDD22140F490003A9557 /* ModuleAProvide.m in Sources */,
+				27962C2121463EF40049EA7D /* Target_ModuleA.m in Sources */,
 				276DEDAE2140CD55003A9557 /* main.m in Sources */,
 				276DEDB92140D62E003A9557 /* BaseTableViewController.m in Sources */,
 				276DEDC42140D790003A9557 /* ModuleAVC.m in Sources */,
+				27962C1721463D970049EA7D /* PerformActionViewController.m in Sources */,
 				276DEDA02140CD53003A9557 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

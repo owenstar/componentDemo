@@ -56,24 +56,15 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    switch (indexPath.row) {
-        case 0:
-        {
-            [self.navigationController pushViewController:[[ProtocolViewController alloc]init] animated:true];
-        }
-            break;
-            
-        default:
-            break;
-    }
+    [self.navigationController pushViewController:[[NSClassFromString(self.datasource[indexPath.row]) alloc]init] animated:true];
 }
 
 -(NSArray *)datasource
 {
     if (!_datasource) {
-        _datasource = @[@"protocol",
-                        @"URL",
-                        @"Runtime"];
+        _datasource = @[@"ProtocolViewController",
+                        @"URLViewController",
+                        @"PerformActionViewController"];
     }
     return _datasource;
 }
