@@ -30,6 +30,12 @@
 		27962C2121463EF40049EA7D /* Target_ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 27962C2021463EF40049EA7D /* Target_ModuleA.m */; };
 		27962C2421463F0F0049EA7D /* CTMediator+ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 27962C2321463F0F0049EA7D /* CTMediator+ModuleA.m */; };
 		27962C26214650CB0049EA7D /* aaa.png in Resources */ = {isa = PBXBuildFile; fileRef = 27962C25214650CB0049EA7D /* aaa.png */; };
+		27962C2C214670630049EA7D /* URLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27962C2A214670630049EA7D /* URLViewController.m */; };
+		27962C2D214670630049EA7D /* URLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27962C2B214670630049EA7D /* URLViewController.xib */; };
+		27962C32214670990049EA7D /* ModuleCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27962C30214670990049EA7D /* ModuleCViewController.m */; };
+		27962C33214670990049EA7D /* ModuleCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27962C31214670990049EA7D /* ModuleCViewController.xib */; };
+		27962C37214670B70049EA7D /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 27962C36214670B70049EA7D /* MGJRouter.m */; };
+		27962C3A214676840049EA7D /* MGJRouterRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 27962C39214676840049EA7D /* MGJRouterRegister.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +80,16 @@
 		27962C2221463F0F0049EA7D /* CTMediator+ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ModuleA.h"; sourceTree = "<group>"; };
 		27962C2321463F0F0049EA7D /* CTMediator+ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ModuleA.m"; sourceTree = "<group>"; };
 		27962C25214650CB0049EA7D /* aaa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aaa.png; sourceTree = "<group>"; };
+		27962C29214670630049EA7D /* URLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLViewController.h; sourceTree = "<group>"; };
+		27962C2A214670630049EA7D /* URLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLViewController.m; sourceTree = "<group>"; };
+		27962C2B214670630049EA7D /* URLViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = URLViewController.xib; sourceTree = "<group>"; };
+		27962C2F214670990049EA7D /* ModuleCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleCViewController.h; sourceTree = "<group>"; };
+		27962C30214670990049EA7D /* ModuleCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleCViewController.m; sourceTree = "<group>"; };
+		27962C31214670990049EA7D /* ModuleCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModuleCViewController.xib; sourceTree = "<group>"; };
+		27962C35214670B70049EA7D /* MGJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJRouter.h; sourceTree = "<group>"; };
+		27962C36214670B70049EA7D /* MGJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGJRouter.m; sourceTree = "<group>"; };
+		27962C38214676840049EA7D /* MGJRouterRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGJRouterRegister.h; sourceTree = "<group>"; };
+		27962C39214676840049EA7D /* MGJRouterRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGJRouterRegister.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +203,11 @@
 		27962C0F21463D370049EA7D /* URL */ = {
 			isa = PBXGroup;
 			children = (
+				27962C34214670B70049EA7D /* MGJRouter */,
+				27962C2E2146706A0049EA7D /* ModuleC */,
+				27962C29214670630049EA7D /* URLViewController.h */,
+				27962C2A214670630049EA7D /* URLViewController.m */,
+				27962C2B214670630049EA7D /* URLViewController.xib */,
 			);
 			name = URL;
 			sourceTree = "<group>";
@@ -212,6 +233,27 @@
 				27962C1C21463E4E0049EA7D /* ModuleAViewController.xib */,
 			);
 			name = ModuleA;
+			sourceTree = "<group>";
+		};
+		27962C2E2146706A0049EA7D /* ModuleC */ = {
+			isa = PBXGroup;
+			children = (
+				27962C2F214670990049EA7D /* ModuleCViewController.h */,
+				27962C30214670990049EA7D /* ModuleCViewController.m */,
+				27962C31214670990049EA7D /* ModuleCViewController.xib */,
+				27962C38214676840049EA7D /* MGJRouterRegister.h */,
+				27962C39214676840049EA7D /* MGJRouterRegister.m */,
+			);
+			name = ModuleC;
+			sourceTree = "<group>";
+		};
+		27962C34214670B70049EA7D /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				27962C35214670B70049EA7D /* MGJRouter.h */,
+				27962C36214670B70049EA7D /* MGJRouter.m */,
+			);
+			path = MGJRouter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +315,8 @@
 			files = (
 				27962C26214650CB0049EA7D /* aaa.png in Resources */,
 				27962C1E21463E4E0049EA7D /* ModuleAViewController.xib in Resources */,
+				27962C33214670990049EA7D /* ModuleCViewController.xib in Resources */,
+				27962C2D214670630049EA7D /* URLViewController.xib in Resources */,
 				276DEDC02140D772003A9557 /* ProtocolViewController.xib in Resources */,
 				27962C1821463D970049EA7D /* PerformActionViewController.xib in Resources */,
 				276DEDCA2140D7A5003A9557 /* ModuleBVC.xib in Resources */,
@@ -291,14 +335,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				27962C1D21463E4E0049EA7D /* ModuleAViewController.m in Sources */,
+				27962C37214670B70049EA7D /* MGJRouter.m in Sources */,
 				27962C2421463F0F0049EA7D /* CTMediator+ModuleA.m in Sources */,
+				27962C2C214670630049EA7D /* URLViewController.m in Sources */,
 				276DEDCE2140D7F7003A9557 /* ModuleManager.m in Sources */,
 				27962C1321463D500049EA7D /* CTMediator.m in Sources */,
+				27962C3A214676840049EA7D /* MGJRouterRegister.m in Sources */,
 				276DEDBF2140D772003A9557 /* ProtocolViewController.m in Sources */,
 				276DEDC92140D7A5003A9557 /* ModuleBVC.m in Sources */,
 				276DEDDD2140FCBF003A9557 /* ModuleBProvide.m in Sources */,
 				276DEDD22140F490003A9557 /* ModuleAProvide.m in Sources */,
 				27962C2121463EF40049EA7D /* Target_ModuleA.m in Sources */,
+				27962C32214670990049EA7D /* ModuleCViewController.m in Sources */,
 				276DEDAE2140CD55003A9557 /* main.m in Sources */,
 				276DEDB92140D62E003A9557 /* BaseTableViewController.m in Sources */,
 				276DEDC42140D790003A9557 /* ModuleAVC.m in Sources */,

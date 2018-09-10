@@ -19,4 +19,8 @@
 #pragma mark - Runtime
 #import "CTMediator/CTMediator.h"
 #import "CTMediator+ModuleA.h"
+
+
+#pragma mark - MGJRouter
+#import "MGJRouter/MGJRouter.h"
 #endif /* PrefixHeader_pch */
